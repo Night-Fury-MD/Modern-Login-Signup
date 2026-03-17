@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <h2>Welcome back</h2>
+        <p>please enter your details.</p>
+      </div>
+      <form id="loginForm">
+        <div class="input">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="input">
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </div>
+        <button type="submit" class="sign">Sign In</button>
+        <div class="options">
+          <div class="rem">
+            <input type="checkbox" id="check">
+            <label for="check">Remember me</label>
+          </div>
+          <a href="#" class="forget"> Forget Password</a>
+        </div>
+        <p class="text">
+          Don't have an account yet ? <a href="signup.html"> Sign Up</a>
+        </p>
+      </form>
+    </div>
+    <script rel="script" src="javascript/main.js"></script>
+  </body>
+</html>
